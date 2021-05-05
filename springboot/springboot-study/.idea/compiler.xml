@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-05-mybatis" />
+        <module name="spring-06-security" />
+        <module name="springboot-09-test" />
+        <module name="hello-shiro" />
+        <module name="springboot-06-security" />
+        <module name="springboot-02-config" />
+        <module name="Swagger_demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello-shiro" target="16" />
+      <module name="spring-06-security" target="1.5" />
+      <module name="springboot-02-config" target="1.5" />
+      <module name="springboot-05-mybatis" target="1.5" />
+      <module name="springboot-06-security" target="1.5" />
+      <module name="springboot-08-shiro" target="16" />
+      <module name="springboot-09-test" target="1.5" />
+      <module name="Swagger_demo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

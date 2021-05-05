@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace=绑定一个对应的Dao/Mapper/接口-->
+<mapper namespace="com.heng.dao.UserMapper">
+    <select id="getUserList" resultType="com.heng.pojo.User">
+        select * from demo_siahk.user;
+    </select>
+
+    <select id="getUserLike" parameterType="string" resultType="com.heng.pojo.User">
+        select * from demo_siahk.user where name like "%"#{value}"%";
+    </select>
+
+
+    <select id="getUserById" parameterType="int" resultType="com.heng.pojo.User">
+        select * from demo_siahk.user where id = #{id};
+    </select>
+
+    <select id="getUserById2" parameterType="map" resultType="com.heng.pojo.User">
+        select * from demo_siahk.user where id = #{userId};
+    </select>
+
+    <insert id="addUser" parameterType="com.heng.pojo.User">
+        INSERT INTO demo_siahk.user (id, name, pwd) VALUES (#{id},#{name},#{pwd});
+    </insert>
+
+
+    <insert id="addUser2" parameterType="map">
+        insert into demo_siahk.user (id, name, pwd) VALUES (#{userId},#{userName},#{password});
+    </insert>
+
+
+    <update id="updateUser" parameterType="com.heng.pojo.User">
+        update demo_siahk.user set name = #{name}, pwd = #{pwd} where id = #{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete from demo_siahk.user where id = #{id};
+    </delete>
+
+</mapper>

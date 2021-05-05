@@ -1,0 +1,16 @@
+
+
+# 连接数据库
+spring:
+  datasource:
+    username: root
+    password: mxqs6689**
+    url: jdbc:mysql://sh-cdb-b11akhd4.sql.tencentcdb.com:60170/demo_siahk?serverTimezone&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# 整合mybatis
+mybatis:
+  type-aliases-package: com.heng.pojo
+  mapper-locations: classpath:mybatis/mapper/*.xml
+server:
+  port: 8080

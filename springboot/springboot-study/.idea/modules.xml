@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Swagger_demo/Swagger_demo.iml" filepath="$PROJECT_DIR$/Swagger_demo/Swagger_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-08-shiro/hello-shiro/hello-shiro.iml" filepath="$PROJECT_DIR$/springboot-08-shiro/hello-shiro/hello-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-06-security/spring-06-security.iml" filepath="$PROJECT_DIR$/spring-06-security/spring-06-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-02-config/springboot-02-config.iml" filepath="$PROJECT_DIR$/springboot-02-config/springboot-02-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-05-mybatis/springboot-05-mybatis.iml" filepath="$PROJECT_DIR$/springboot-05-mybatis/springboot-05-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-security/springboot-06-security.iml" filepath="$PROJECT_DIR$/springboot-06-security/springboot-06-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-08-shiro/springboot-08-shiro.iml" filepath="$PROJECT_DIR$/springboot-08-shiro/springboot-08-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" filepath="$PROJECT_DIR$/springboot-09-test/springboot-09-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-study.iml" filepath="$PROJECT_DIR$/.idea/springboot-study.iml" />
+    </modules>
+  </component>
+</project>
